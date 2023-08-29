@@ -97,7 +97,7 @@ portageManualInternalVariables = [
     -- cros-board.eclass declared incorrectly
     "CROS_BOARDS",
 
-    -- Undeclared cros-kernel2 vars
+    -- Undeclared cros-kernel vars
     "AFDO_PROFILE_VERSION",
 
     -- haskell-cabal.eclass declared incorrectly
