@@ -6,7 +6,7 @@ module ShellCheck.PortageAutoInternalVariables (
 -- third_party/chromiumos-overlay/dev-util/shellcheck/files/get_vars.py
 
 
--- Last Generated: 07/15/24
+-- Last Generated: 07/25/24
 
 import qualified Data.Map
 
@@ -696,9 +696,9 @@ portageAutoInternalVariables =
     "EPATCH_COMMON_OPTS", "EPATCH_EXCLUDE", "EPATCH_FORCE", "EPATCH_MULTI_MSG",
     "EPATCH_OPTS", "EPATCH_SINGLE_MSG", "EPATCH_SOURCE", "EPATCH_SUFFIX",
     "EPATCH_USER_EXCLUDE", "EPATCH_USER_SOURCE", "EPYTHON", "LIBCAMERA_DEPEND",
-    "LIBCAMERA_IPA", "LIBCAMERA_PIPELINES", "MYMESONARGS", "NINJA", "NINJAOPTS",
-    "NINJA_DEPEND", "PLATFORM2_TEST_DEPS", "PYTHON", "PYTHON_COMPAT_NO_STRICT",
-    "_PYTHON_ALL_IMPLS", "emesonargs"]),
+    "LIBCAMERA_IPA", "LIBCAMERA_IPA_GPU", "LIBCAMERA_PIPELINES", "MYMESONARGS",
+    "NINJA", "NINJAOPTS", "NINJA_DEPEND", "PLATFORM2_TEST_DEPS", "PYTHON",
+    "PYTHON_COMPAT_NO_STRICT", "_PYTHON_ALL_IMPLS", "emesonargs"]),
 
     ("libchrome", ["EPATCH_COMMON_OPTS", "EPATCH_EXCLUDE", "EPATCH_FORCE",
     "EPATCH_MULTI_MSG", "EPATCH_OPTS", "EPATCH_SINGLE_MSG", "EPATCH_SOURCE",
