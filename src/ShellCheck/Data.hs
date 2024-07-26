@@ -88,36 +88,6 @@ portageManualInternalVariables = [
     "SLOT", "SRC_TEST", "SRC_URI", "STRIP_MASK", "SUBSLOT", "SYSROOT", "T",
     "WORKDIR",
 
-    -- autotest.eclass declared incorrectly
-    "AUTOTEST_CLIENT_TESTS", "AUTOTEST_CLIENT_SITE_TESTS",
-    "AUTOTEST_SERVER_TESTS", "AUTOTEST_SERVER_SITE_TESTS", "AUTOTEST_CONFIG",
-    "AUTOTEST_DEPS", "AUTOTEST_PROFILERS", "AUTOTEST_CONFIG_LIST",
-    "AUTOTEST_DEPS_LIST", "AUTOTEST_PROFILERS_LIST",
-
-    -- cros-board.eclass declared incorrectly
-    "CROS_BOARDS",
-
-    -- Undeclared cros-kernel vars
-    "AFDO_PROFILE_VERSION",
-
-    -- haskell-cabal.eclass declared incorrectly
-    "CABAL_FEATURES",
-
-    -- Undeclared haskell-cabal.eclass vars
-    "CABAL_CORE_LIB_GHC_PV",
-
-    -- Undeclared readme.gentoo.eclass vars
-    "DOC_CONTENTS",
-
-    -- Backwards compatibility perl-module.eclass vars
-    "MODULE_AUTHOR", "MODULE_VERSION",
-
-    -- Undeclared perl-module.eclass vars
-    "mydoc",
-
-    -- python-utils-r1.eclass declared incorrectly
-    "RESTRICT_PYTHON_ABIS", "PYTHON_MODNAME",
-
     -- ABI variables
     "ABI", "DEFAULT_ABI",
 
