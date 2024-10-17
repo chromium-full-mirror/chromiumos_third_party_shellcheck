@@ -793,6 +793,12 @@ commandNeverProducesSpaces params t =
               "usex"
             , "meson_use"
             , "meson_feature"
+            , "multilib_native_usev"
+            , "multilib_native_use_with"
+            , "multilib_native_use_enable"
+            , "multilib_native_enable"
+            , "multilib_native_with"
+            , "multilib_native_usex"
             ]
         else
             []
@@ -815,6 +821,9 @@ prop_checkUnquotedExpansionsPortageUsev = verifyNot (withPortageParams checkUnqu
 prop_checkUnquotedExpansionsUsex = verify checkUnquotedExpansions "echo $(usex X)"
 prop_checkUnquotedExpansionsPortageUsex1 = verifyNot (withPortageParams checkUnquotedExpansions) "echo $(usex X \"\" Y)"
 prop_checkUnquotedExpansionsPortageUsex2 = verify (withPortageParams checkUnquotedExpansions) "echo $(usex X \"Y Z\" W)"
+prop_checkUnquotedExpansionsMultilibUsex = verify checkUnquotedExpansions "echo $(multilib_native_usex X)"
+prop_checkUnquotedExpansionsPortageMultilibUsex1 = verifyNot (withPortageParams checkUnquotedExpansions) "echo $(multilib_native_usex X \"\" Y)"
+prop_checkUnquotedExpansionsPortageMultilibUsex2 = verify (withPortageParams checkUnquotedExpansions) "echo $(multilib_native_usex X \"Y Z\" W)"
 prop_checkUnquotedExpansions10 = verify checkUnquotedExpansions "#!/bin/sh\nexport var=$(val)"
 checkUnquotedExpansions params =
     check
