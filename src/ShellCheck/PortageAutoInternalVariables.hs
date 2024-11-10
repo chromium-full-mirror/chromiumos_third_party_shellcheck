@@ -6,7 +6,7 @@ module ShellCheck.PortageAutoInternalVariables (
 -- third_party/chromiumos-overlay/dev-util/shellcheck/files/get_vars.py
 
 
--- Last Generated: 10/27/24
+-- Last Generated: 11/10/24
 
 import qualified Data.Map
 
@@ -566,6 +566,12 @@ portageAutoInternalVariables =
     "DLC_SRC_URI_PREFIX_FILE", "DLC_TABLE", "DLC_USER_TIED",
     "DLC_USE_LOGICAL_VOLUME", "DLC_VERSION", "UNPACKER_BZ2", "UNPACKER_LZIP"]),
 
+    ("dotnet-pkg-base", ["DOTNET_PKG_BDEPS", "DOTNET_PKG_COMPAT",
+    "DOTNET_PKG_CONFIGURATION", "DOTNET_PKG_EXECUTABLE", "DOTNET_PKG_OUTPUT",
+    "DOTNET_PKG_RDEPS", "DOTNET_PKG_RUNTIME", "NUGETS", "NUGET_APIS",
+    "NUGET_PACKAGES", "NUGET_SYSTEM_NUGETS", "NUGET_URIS",
+    "_DOTNET_PKG_LAUNCHERDEST", "_DOTNET_PKG_LAUNCHERVARS"]),
+
     ("elisp", ["BYTECOMPFLAGS", "DOCS", "ELISP_PATCHES", "ELISP_TEXINFO",
     "EMACS", "EMACSFLAGS", "EPATCH_COMMON_OPTS", "EPATCH_EXCLUDE",
     "EPATCH_FORCE", "EPATCH_MULTI_MSG", "EPATCH_OPTS", "EPATCH_SINGLE_MSG",
@@ -822,6 +828,9 @@ portageAutoInternalVariables =
     "_MULTILIB_FLAGS"]),
 
     ("ninja-utils", ["NINJA", "NINJAOPTS", "NINJA_DEPEND"]),
+
+    ("nuget", ["NUGETS", "NUGET_APIS", "NUGET_PACKAGES", "NUGET_SYSTEM_NUGETS",
+    "NUGET_URIS"]),
 
     ("osreleased", ["EPATCH_COMMON_OPTS", "EPATCH_EXCLUDE", "EPATCH_FORCE",
     "EPATCH_MULTI_MSG", "EPATCH_OPTS", "EPATCH_SINGLE_MSG", "EPATCH_SOURCE",
