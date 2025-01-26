@@ -6,7 +6,7 @@ module ShellCheck.PortageAutoInternalVariables (
 -- third_party/chromiumos-overlay/dev-util/shellcheck/files/get_vars.py
 
 
--- Last Generated: 01/12/25
+-- Last Generated: 01/26/25
 
 import qualified Data.Map
 
@@ -806,8 +806,8 @@ portageAutoInternalVariables =
     "DLC_USER_TIED", "DLC_USE_LOGICAL_VOLUME", "DLC_VERSION",
     "MODEM_FW_DLC_EM060_DEFAULT_SIZE", "MODEM_FW_DLC_FM101_DEFAULT_SIZE_3FW",
     "MODEM_FW_DLC_FM350_DEFAULT_SIZE_3FW", "MODEM_FW_DLC_L850_DEFAULT_SIZE_3FW",
-    "MODEM_FW_DLC_LCUK54_DEFAULT_SIZE", "MODEM_FW_DLC_PREALLOC_SIZE_MB",
-    "MODEM_FW_DLC_RW101_DEFAULT_SIZE_3FW",
+    "MODEM_FW_DLC_LCUK54_DEFAULT_SIZE", "MODEM_FW_DLC_MODEL_NAME",
+    "MODEM_FW_DLC_PREALLOC_SIZE_MB", "MODEM_FW_DLC_RW101_DEFAULT_SIZE_3FW",
     "MODEM_FW_DLC_RW135_DEFAULT_SIZE_3FW"]),
 
     ("multibuild", ["BUILD_DIR", "MULTIBUILD_ID", "MULTIBUILD_VARIANT",
