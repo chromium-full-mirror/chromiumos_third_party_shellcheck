@@ -6,7 +6,7 @@ module ShellCheck.PortageAutoInternalVariables (
 -- third_party/chromiumos-overlay/dev-util/shellcheck/files/get_vars.py
 
 
--- Last Generated: 03/02/25
+-- Last Generated: 03/09/25
 
 import qualified Data.Map
 
@@ -414,6 +414,9 @@ portageAutoInternalVariables =
     ("cros-protobuf", ["CROS_PROTOBUF_APPLY_DEFAULT_DEPS", "CROS_PROTOBUF_DEPS",
     "CROS_PROTOC_DEPS"]),
 
+    ("cros-racc", ["CROS_PROTOBUF_APPLY_DEFAULT_DEPS", "CROS_PROTOBUF_DEPS",
+    "CROS_PROTOC_DEPS"]),
+
     ("cros-remoteexec", ["ARC_ETC_DIR", "ARC_PREFIX", "ARC_VENDOR_DIR",
     "AUTOTEST_BASE", "CHROMITE_BIN_DIR", "CHROMITE_DIR", "CHROOT_SOURCE_ROOT",
     "CROS_GIT_AOSP_URL", "CROS_GIT_HOST_URL", "CROS_GIT_INT_HOST_URL",
@@ -536,6 +539,9 @@ portageAutoInternalVariables =
     "UNIBOARD_CROS_CONFIG_DIR", "UNIBOARD_JSON_INSTALL_PATH",
     "UNIBOARD_YAML_CONFIG", "UNIBOARD_YAML_DIR", "_PYTHON_ALL_IMPLS",
     "_PYTHON_HISTORICAL_IMPLS"]),
+
+    ("crossdev", ["_CROSS_CATEGORY_PREFIX", "_IS_CROSSPKG", "_IS_CROSSPKG_GCC",
+    "_IS_CROSSPKG_LLVM"]),
 
     ("cuda", ["CUDA_VERBOSE", "EPATCH_COMMON_OPTS", "EPATCH_EXCLUDE",
     "EPATCH_FORCE", "EPATCH_MULTI_MSG", "EPATCH_OPTS", "EPATCH_SINGLE_MSG",
