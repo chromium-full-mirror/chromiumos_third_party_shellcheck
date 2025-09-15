@@ -6,7 +6,7 @@ module ShellCheck.PortageAutoInternalVariables (
 -- third_party/chromiumos-overlay/dev-util/shellcheck/files/get_vars.py
 
 
--- Last Generated: 08/11/25
+-- Last Generated: 09/15/25
 
 import qualified Data.Map
 
@@ -1021,6 +1021,11 @@ portageAutoInternalVariables =
     ("ruby-utils", ["RUBY_TARGETS_PREFERENCE"]),
 
     ("scons-utils", ["EXTRA_ESCONS", "SCONSOPTS", "SCONS_MIN_VERSION"]),
+
+    ("secureboot", ["CONFIG_CHECK", "KBUILD_OUTPUT", "KERNEL_DIR", "KV_DIR",
+    "KV_EXTRA", "KV_FULL", "KV_LOCAL", "KV_MAJOR", "KV_MINOR", "KV_OUT_DIR",
+    "KV_PATCH", "SECUREBOOT_SIGN_CERT", "SECUREBOOT_SIGN_KEY",
+    "_LINUX_CONFIG_EXISTS_DONE"]),
 
     ("tast-bundle", ["ARC_ETC_DIR", "ARC_PREFIX", "ARC_VENDOR_DIR",
     "AUTOTEST_BASE", "CHROMITE_BIN_DIR", "CHROMITE_DIR", "CHROOT_SOURCE_ROOT",
