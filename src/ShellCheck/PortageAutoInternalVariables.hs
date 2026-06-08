@@ -6,7 +6,7 @@ module ShellCheck.PortageAutoInternalVariables (
 -- third_party/chromiumos-overlay/dev-util/shellcheck/files/get_vars.py
 
 
--- Last Generated: 03/23/26
+-- Last Generated: 06/08/26
 
 import qualified Data.Map
 
@@ -1027,6 +1027,17 @@ portageAutoInternalVariables =
     ("ruby-single", ["RUBY_DEPS", "RUBY_TARGETS_PREFERENCE", "USE_RUBY"]),
 
     ("ruby-utils", ["RUBY_TARGETS_PREFERENCE"]),
+
+    ("rust", ["BUILD_DIR", "EPATCH_COMMON_OPTS", "EPATCH_EXCLUDE",
+    "EPATCH_FORCE", "EPATCH_MULTI_MSG", "EPATCH_OPTS", "EPATCH_SINGLE_MSG",
+    "EPATCH_SOURCE", "EPATCH_SUFFIX", "EPATCH_USER_EXCLUDE",
+    "EPATCH_USER_SOURCE", "ERUST_SLOT_OVERRIDE", "ERUST_TYPE_OVERRIDE",
+    "MULTIBUILD_ID", "MULTIBUILD_VARIANT", "MULTIBUILD_VARIANTS",
+    "MULTILIB_ABI_FLAG", "MULTILIB_CHOST_TOOLS", "MULTILIB_COMPAT",
+    "MULTILIB_USEDEP", "MULTILIB_WRAPPED_HEADERS", "RUST_DEPEND",
+    "RUST_MAX_VER", "RUST_MIN_VER", "RUST_MULTILIB", "RUST_NEEDS_LLVM",
+    "RUST_OPTIONAL", "RUST_REQ_USE", "RUST_SLOT", "RUST_TYPE",
+    "_MULTILIB_FLAGS", "_RUST_LLVM_MAP", "_RUST_SLOTS_ORDERED"]),
 
     ("scons-utils", ["EXTRA_ESCONS", "SCONSOPTS", "SCONS_MIN_VERSION"]),
 
