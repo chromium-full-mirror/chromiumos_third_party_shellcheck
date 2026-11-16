@@ -6,7 +6,7 @@ module ShellCheck.PortageAutoInternalVariables (
 -- third_party/chromiumos-overlay/dev-util/shellcheck/files/get_vars.py
 
 
--- Last Generated: 09/28/26
+-- Last Generated: 11/16/26
 
 import qualified Data.Map
 
@@ -77,6 +77,11 @@ portageAutoInternalVariables =
     ("autotools", ["AM_OPTS", "AT_M4DIR", "AT_NOEAUTOHEADER", "AT_NOEAUTOMAKE",
     "AT_NOELIBTOOLIZE", "AT_SYS_M4DIR", "AUTOTOOLS_AUTO_DEPEND",
     "WANT_AUTOCONF", "WANT_AUTOMAKE", "WANT_LIBTOOL", "_LATEST_AUTOMAKE"]),
+
+    ("branding", ["BRANDING_OS_BUG_REPORT_URL", "BRANDING_OS_HOME_URL",
+    "BRANDING_OS_ID", "BRANDING_OS_ID_LIKE", "BRANDING_OS_NAME",
+    "BRANDING_OS_PRETTY_NAME", "BRANDING_OS_SUPPORT_URL", "BRANDING_OS_VERSION",
+    "BRANDING_OS_VERSION_ID"]),
 
     ("cargo", ["CARGO_CRATE_URIS", "CARGO_OPTIONAL", "CRATES", "ECARGO_OFFLINE",
     "ECARGO_REGISTRY_DIR", "EVCS_UMASK", "GIT_CRATES", "myfeatures"]),
