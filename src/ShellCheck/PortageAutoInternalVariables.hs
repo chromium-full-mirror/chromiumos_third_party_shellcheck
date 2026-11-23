@@ -6,7 +6,7 @@ module ShellCheck.PortageAutoInternalVariables (
 -- third_party/chromiumos-overlay/dev-util/shellcheck/files/get_vars.py
 
 
--- Last Generated: 11/16/26
+-- Last Generated: 11/23/26
 
 import qualified Data.Map
 
@@ -709,10 +709,9 @@ portageAutoInternalVariables =
     ("perl-functions", ["ALTERNATIVES", "SOURCE"]),
 
     ("perl-module", ["ALTERNATIVES", "DIST_A", "DIST_AUTHOR", "DIST_A_EXT",
-    "DIST_EXAMPLES", "DIST_NAME", "DIST_SECTION", "DIST_TEST",
-    "DIST_TEST_OVERRIDE", "DIST_VERSION", "GENTOO_DEPEND_ON_PERL",
-    "MODULE_AUTHOR", "MODULE_VERSION", "SOURCE", "UNPACKER_BZ2",
-    "UNPACKER_LZIP", "mydoc"]),
+    "DIST_EXAMPLES", "DIST_MAKE", "DIST_NAME", "DIST_SECTION", "DIST_TEST",
+    "DIST_TEST_OVERRIDE", "DIST_VERSION", "DIST_WIKI", "GENTOO_DEPEND_ON_PERL",
+    "MODULE_AUTHOR", "MODULE_VERSION", "PERL_USEDEP", "SOURCE", "mydoc"]),
 
     ("platform", ["ARC_ETC_DIR", "ARC_PREFIX", "ARC_VENDOR_DIR",
     "AUTOTEST_BASE", "CHROMITE_BIN_DIR", "CHROMITE_DIR", "CHROOT_SOURCE_ROOT",
